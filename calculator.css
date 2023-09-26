@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #282828;
+  margin-top:50px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding:10px;
+  padding-top:10px;
+}
+
+button{
+  font-weight: bold;
+  border-radius:8px;
+  border:none;
+  background-color:	#585858;
+  color:white;
+}
+
+.header{
+  display:flex;
+  justify-content: flex-end;
+  padding:20px;
+  flex-direction: column;
+  position:relative;
+}
+
+.parameters-con{
+  display:flex;
+}
+
+.delete-img{
+  height:20px;
+  margin-bottom: -3px;
+  color:white;
+  filter: brightness(0) invert(1);
+}
+
+.num-1{
+  opacity: 0.5;
+  margin:2px;
+  color:white;
+}
+
+.num-2{
+  position:absolute;
+  right:20px;
+  top:20px;
+  color:white;
+}
+
+.operator{
+  position:absolute;
+  right:15px;
+  bottom:15px;
+  font-size:20px;
+  opacity: 0.6;
+  color:white;
+}
+
+.zero-num{
+  display:flex;
+  font-size:20px;
+  justify-self: flex-end;
+  color:white;
+  opacity:0.8;
+}
+
+.button-container{
+  display:grid;
+  grid-template-columns: 60px 60px 60px 60px;
+  grid-template-rows: 60px 60px 60px 60px  60px;
+  grid-gap:10px;
+}
+
+.operation{
+  background-color:#0070b8;
+}
+
+.equal-btn{
+  width:130px;
+}
